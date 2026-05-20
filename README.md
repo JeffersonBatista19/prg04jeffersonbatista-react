@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# 🎮 Meu Projeto de Web — PRG04
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistema web gamificado de rotina desenvolvido ao longo da disciplina de **Programação Web** no IFBA Campus Irecê, migrado para **React** com componentização e deploy em produção.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Objetivo
 
-### `npm start`
+- Aplicar os conceitos de HTML semântico, CSS avançado e JavaScript aprendidos em aula
+- Migrar o projeto para **React** com componentização reutilizável
+- Implementar navegação com **React Router DOM**
+- Realizar **deploy em produção** via Vercel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Funcionalidades
 
-### `npm test`
+- 🏠 Página inicial com cards de habilidades desbloqueadas
+- 🔐 Sistema de Login com validação de formulário
+- 🛠️ Painel Administrativo com tabela de usuários
+- 🎨 Paleta de cores temática com visualização interativa
+- 🖼️ Imagem dinâmica responsiva (Atividade 03)
+- 🎵 Player de áudio e vídeo incorporado (Sandbox)
+- 📱 Layout responsivo para mobile e desktop
+- ⚡ Navegação dinâmica sem recarregar a página
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🏗️ Estrutura do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+📦 prg04-react
+├── 📂 public
+├── 📂 src
+│   ├── 📂 components
+│   │   ├── 📄 Navbar.jsx       ← Menu de navegação
+│   │   ├── 📄 Footer.jsx       ← Rodapé
+│   │   ├── 📄 Card.jsx         ← Card reutilizável
+│   │   ├── 📄 LoginForm.jsx    ← Formulário de autenticação
+│   │   └── 📄 UserTable.jsx    ← Tabela de usuários
+│   ├── 📂 pages
+│   │   ├── 📄 Home.jsx
+│   │   ├── 📄 Login.jsx
+│   │   ├── 📄 Admin.jsx
+│   │   ├── 📄 Atividade03.jsx
+│   │   ├── 📄 Sandbox.jsx
+│   │   └── 📄 PaletaDeCores.jsx
+│   ├── 📄 App.js               ← Rotas da aplicação
+│   └── 📄 index.css
+├── 📄 package.json
+└── 📄 README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tecnologias
 
-### `npm run eject`
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B0?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 Paleta de Cores
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Cor | Hex | Uso |
+|-----|-----|-----|
+| 🟡 Âmbar | `#f59e0b` | Cor principal — títulos e destaques |
+| 🟣 Violeta | `#7c3aed` | Destaque secundário |
+| 🌑 Azul Noite | `#0f172a` | Fundo da página |
+| ⬛ Azul Escuro | `#1e293b` | Cards e componentes |
+| ⬜ Cinza Claro | `#e2e8f0` | Texto principal |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A paleta é do tipo **Análoga**, com cores vizinhas na roda cromática inspiradas em sistemas de **gamificação** — âmbar para conquistas, violeta para progresso.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔗 Deploy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌐 Projeto publicado na Vercel: **https://prg04jeffersonbatista-react.vercel.app**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💻 Como rodar localmente
 
-### Analyzing the Bundle Size
+```bash
+# Clone o repositório
+git clone https://github.com/JeffersonBatista19/prg04jeffersonbatista-react.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Entre na pasta
+cd prg04jeffersonbatista-react
 
-### Making a Progressive Web App
+# Instale as dependências
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Rode o projeto
+npm start
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📌 Observações
 
-### Deployment
+Projeto desenvolvido com foco em prática de **React**, componentização, responsividade e criação de interfaces modernas com temática de gamificação de rotina.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Desenvolvido por Jefferson Batista** — IFBA Campus Irecê  
+Disciplina: Programação Web | Professor: Jonatas Bastos
